@@ -1,0 +1,24 @@
+/* ----------------------- */
+/* --- Universal style --- */
+/* ----------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+/* ----------------------- */
+/* --- Font --- */
+/* ----------------------- */
+@font-face {
+  font-family: Plana;
+  src: url(./ASSETS/FONTS/GT-Planar-Trial-VF.ttf);
+  font-weight: 100 900;
+  font-style: oblique 0 45deg;
+}
+
+body {
+  font-family: Plana, sans-serif;
+}
