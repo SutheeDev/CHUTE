@@ -1,22 +1,26 @@
 const header = document.querySelector('h1');
-const logo = document.querySelector('h1 span');
+const logo = header.querySelector('span');
 const logoWidth = logo.clientWidth;
+
+const h1Tl = gsap.timeline({repeat: -1});
+h1Tl
+    .set(header, {x: logoWidth * 1})
+    .to(header, {
+        x: logoWidth * -1,
+        ease: 'linear',
+        duration: 3,
+    })
+
 
 const logoTl = gsap.timeline({repeat: -1});
 logoTl
     .set(logo, {
-        x: logoWidth * 3,
         fontVariationSettings: '"wght" 130, "slnt" 45',
     })
     .to(logo, {
-        x: 0,
-        fontVariationSettings: '"wght" 130, "slnt" 0',
-        ease: 'linear',
-        duration: 3,
-    })
-    .to(logo, {
-        x: logoWidth * -3,
         fontVariationSettings: '"wght" 130, "slnt" -45',
         ease: 'linear',
-        duration: 3,
+        duration: 3, 
     })
+
+

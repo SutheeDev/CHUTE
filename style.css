@@ -37,3 +37,6 @@ h1 {
   letter-spacing: -9px;
   transition: all 0.3s ease;
 }
+h1 span {
+  padding: 0 0.8rem;
+}
