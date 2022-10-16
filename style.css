@@ -16,7 +16,7 @@ img {
   font-family: Plana;
   src: url(./ASSETS/FONTS/GT-Planar-Trial-VF.ttf);
   font-weight: 100 900;
-  font-style: oblique 0 45deg;
+  font-style: oblique -45deg 45deg;
 }
 /* ----------------------- */
 /* --- Body --- */
@@ -24,9 +24,6 @@ img {
 body {
   font-family: Plana, sans-serif;
   font-size: 4rem;
-  font-variation-settings: "wght" 130;
-  text-transform: capitalize;
-  letter-spacing: -9px;
 }
 /* ----------------------- */
 /* --- Header --- */
@@ -35,4 +32,8 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-variation-settings: "wght" 130, "slnt" 0;
+  text-transform: capitalize;
+  letter-spacing: -9px;
+  transition: all 0.3s ease;
 }
