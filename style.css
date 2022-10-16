@@ -18,7 +18,21 @@ img {
   font-weight: 100 900;
   font-style: oblique 0 45deg;
 }
-
+/* ----------------------- */
+/* --- Body --- */
+/* ----------------------- */
 body {
   font-family: Plana, sans-serif;
+  font-size: 4rem;
+  font-variation-settings: "wght" 130;
+  text-transform: capitalize;
+  letter-spacing: -9px;
+}
+/* ----------------------- */
+/* --- Header --- */
+/* ----------------------- */
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
