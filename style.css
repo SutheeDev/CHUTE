@@ -45,6 +45,7 @@ section h1 {
 span {
   display: inline-block;
   flex: 0 0 auto;
+  transform-origin: center;
 }
 header span {
   width: 450px;
