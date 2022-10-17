@@ -29,8 +29,9 @@ body {
 /* ----------------------- */
 h1 {
   display: flex;
+  justify-content: center;
   align-items: center;
-  font-variation-settings: "wght" 130, "slnt" 0;
+  font-variation-settings: "wght" 130;
   text-transform: capitalize;
 }
 header h1 {
