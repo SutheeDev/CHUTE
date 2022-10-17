@@ -23,6 +23,12 @@ headers.forEach((header) => {
             ease: 'linear',
             duration: 3,
         })
+        .to(header, {
+            x: logoWidth * -2,
+            fontVariationSettings: '"wght" 130, "slnt" 45',
+            ease: 'linear',
+            duration: 3,
+        })
     
     // const logoTl = gsap.timeline({repeat: -1});
     // logoTl
